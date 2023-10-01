@@ -1,0 +1,20 @@
+{
+  "name": "battleships",
+  "version": "1.0.0",
+  "description": "Battleship game based on the board game of the same name",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "server": "node server.js",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
